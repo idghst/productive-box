@@ -13,5 +13,5 @@ jobs:
         uses: maxam2017/productive-box@master
         env:
           GH_TOKEN: ${{ secrets.SSL }}
-          SSL: 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
+          SSL: e28774268741032d54ca09c9336c00d9
           TIMEZONE: Asia/Seoul
