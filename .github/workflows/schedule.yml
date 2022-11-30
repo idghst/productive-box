@@ -12,6 +12,5 @@ jobs:
       - name: Update gist
         uses: maxam2017/productive-box@master
         env:
-          GH_TOKEN: ${{ secrets.SSL }}
-          SSL: e28774268741032d54ca09c9336c00d9
+          GH_TOKEN: ${{ secrets.GH_TOKEN }}
           TIMEZONE: Asia/Seoul
